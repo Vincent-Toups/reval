@@ -1,0 +1,20 @@
+# R temp files
+.Rhistory
+.RData
+.Ruserdata
+.password
+
+# R markdown
+*.Rmd_checkpoints
+
+# RStudio files
+.Rproj.user
+.Rproj
+
+# Emacs temporary and backup files
+*~
+\#*\#
+.\#*
+
+# Top-level .tar.gz files
+/*.tar.gz
