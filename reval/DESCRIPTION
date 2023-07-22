@@ -1,0 +1,28 @@
+Package: reval
+Title: Functionality for Data Validation in R
+Version: 0.1.0
+Authors@R: 
+    person("Vincent", "Toups", , "toups@email.unc.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9373-3419"))
+Description: The 'reval' package provides tools and functions for data validation in R. It enables the checking of data against a variety of criteria and specifications.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+LinkingTo: 
+    Rcpp
+Imports:
+    magrittr,
+    dplyr,
+    purrr,
+    rlang,
+    tibble,
+    readODS,
+    haven,
+    janitor
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
