@@ -4,9 +4,7 @@
 ## usethis namespace: end
 NULL
 
-#' @importFrom magrittr %>%
-
-#' The latest (digested) combined minimum data set specification at
+#' The latest digested combined minimum data set specification at
 #' the time of this package's last build.
 #'
 #' This data frame contains sufficient information to determine the
@@ -30,3 +28,5 @@ NULL
 #' @source Contact the BACPAC DAC.
 "qsmd_test_data"
 
+#' @importFrom magrittr %>%
+NULL

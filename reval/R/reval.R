@@ -531,7 +531,7 @@ check_codelist <- function(dataset, variable_name, codelist, allow_na = TRUE){
 #' 
 #'  
 check_na <- function(dataset, variable_name){
-    messages <- tibble(check_name=character(0), pass=logical(0), message=character(0), row_numbers=character(0));
+    messages <- tibble::tibble(check_name=character(0), pass=logical(0), message=character(0), row_numbers=character(0));
     na_ii <- is.na(dataset[[variable_name]]);
 
     na_ii <- is.na(dataset[[variable_name]]);
