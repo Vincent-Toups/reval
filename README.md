@@ -35,8 +35,16 @@ Replace [emacs|rstudio] with your choice of environment.
 
 The BACPAC Minimum Data Set Validator provides a comprehensive set of checks for the minimum data set of the BACPAC clinical trial. It checks for data completeness, correct data types, compliance with specified formats, and more.
 
+## Usage
 
+To validate a dataset, use the function reval::validate_dataset. This function takes two arguments:
 
+1. The filename of the dataset (in .csv or .xpt format)
+2. A combined specification
+
+The package includes a built-in specification called min_data_set_spec, but you can generate your own by calling the reval::load_and_combine_specs function on a directory containing spreadsheets. These spreadsheets can contain any combination of minimum dataset specifications in either .ods or .xlsx format.
+
+You may want to install this package on a BACPAC virtual machine. The best way to do that is to build the package locally and upload the tar or zip file and then use devtools::install_local()
 
 ## Support
 
