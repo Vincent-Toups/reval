@@ -4,7 +4,13 @@
 \alias{check_codelist}
 \title{Check Codelist}
 \usage{
-check_codelist(dataset, variable_name, codelist, allow_na = TRUE)
+check_codelist(
+  dataset,
+  variable_name,
+  codelist,
+  allow_na = TRUE,
+  codelist_name = stop("You must specify a codelist name.")
+)
 }
 \arguments{
 \item{dataset}{A tibble/data.frame containing the data to be checked.}

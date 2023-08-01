@@ -4,7 +4,13 @@
 \alias{check_numeric_codelist}
 \title{Check Numeric Codelist}
 \usage{
-check_numeric_codelist(dataset, variable_name, codelist, allow_na = TRUE)
+check_numeric_codelist(
+  dataset,
+  variable_name,
+  codelist,
+  allow_na = TRUE,
+  codelist_name
+)
 }
 \arguments{
 \item{dataset}{A tibble/data.frame containing the data to be checked.}

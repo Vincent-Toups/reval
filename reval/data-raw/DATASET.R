@@ -12,3 +12,7 @@ usethis::use_data(min_data_set_spec, overwrite = TRUE);
 qsmd_test_data <- reval_read_data("./test-data/QSMD.csv");
 
 usethis::use_data(qsmd_test_data, overwrite = TRUE);
+
+qsop_test_data <- reval_read_data("./test-data/QSOP.csv");
+
+usethis::use_data(qsop_test_data, overwrite = TRUE);

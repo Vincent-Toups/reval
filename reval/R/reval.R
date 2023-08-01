@@ -29,6 +29,21 @@ get_codelist_terms <- function(variable_name, spec){
     unique(variable_spec$codelist_terms)
 }
 
+#' @title Get Codelist Name
+#' @description Get the unique codelist name from the specification for a given variable.
+#' @param variable_name A character string specifying the name of the variable.
+#' @param spec A data frame containing the specification of the dataset variables.
+#' @return A character vector containing unique codelist name.
+#' @examples
+#' # Assuming a dataset specification `spec`
+#' get_codelist_name("variable", spec)
+#' @author Vincent Toups
+get_codelist_name <- function(variable_name, spec){
+    variable_spec <- dplyr::filter(spec, variable == variable_name)
+    unique(variable_spec$codelist)
+}
+
+
 #' Check if values can be parsed as ISO8601 durations
 #'
 #' @description
@@ -206,6 +221,24 @@ collapse_commas <- function(s){
     stringr::str_c(s, collapse = ", ")
 }
 
+#' @title Collapses a Character Vector into a Newline-Tab-Separated String
+#'
+#' @description This function takes a character vector as input and collapses it into a single
+#' string, with elements separated by newlines followed by a tab.
+#'
+#' @param s a character vector
+#'
+#' @return a single string with elements of the input vector separated by newlines followed by a tab.
+#'
+#' @examples
+#' collapse_newlines_tab(c("apple", "banana", "cherry"))
+#' # [1] "apple\n\tbanana\n\tcherry"
+#'
+collapse_newlines_tab <- function(s){
+    stringr::str_c(s, collapse = "\n\t")
+}
+
+
 
 #' @title Conditionally Stop Execution
 #' @description Stop the execution of the program if the condition is true. 
@@ -356,16 +389,27 @@ check_where_clause <- function(dataset, spec, dataset_name, variable_name){
                                   where_clause_value == constraint) %>%
                 dplyr::distinct();
             if(nrow(info)==0){
-                stop(sprintf("No where_clause information when checking %s %s:%s.",
-                             variable_name,
-                             wcvar,
-                             constraint));
+                ## stop(sprintf("No where_clause information when checking %s %s:%s.",
+                ##              variable_name,
+                ##              unique(wcvar),
+                ##              unique(constraint)));
+                return(tibble(check_name=sprintf("No where_clause information when checking %s %s:%s.",
+                                                 variable_name,
+                                                 unique(wcvar),
+                                                 unique(constraint)),
+                              pass=FALSE,
+                              message=sprintf("The validator was unable to discover a where_clause for the value of the constraint variable %s %s. This may be because there is an error in the constraint variable column.", wcvar, constraint),
+                              row_numbers=NA));
             }
             codelist <- unique(dplyr::pull(info, value_level_codelist));
+            codelist <- na.exclude(codelist);
+            #print(sprintf("codelist is %s", dplyr::pull(info, value_level_codelist)));
             if(length(codelist)>1){
-                stop(sprintf("During check_where_clause (%s) we got a multi-codelist value: %s",
+                stop(sprintf("During check_where_clause (%s, %s, %s) we got a multi-codelist value: %s",
                              variable_name,
-                             collapse_commas(codelist)));
+                             wcvar,
+                             constraint,
+                             collapse_newlines_tab(codelist)));
             }
             if(length(codelist)==0){
                 codelist <- NA;
@@ -375,12 +419,15 @@ check_where_clause <- function(dataset, spec, dataset_name, variable_name){
             data_type <- dplyr::pull(info, value_level_data_type);
             mandatory <- dplyr::pull(info, value_level_mandatory)[[1]];
             format <- unique(dplyr::pull(info, format));
-            if(length(format)!=1){
+            format <- na.exclude(format);
+            ## print("format");
+            ## print(format);
+            if(length(format)>1){
                 stop(sprintf("In check_where_clause we encountered an ambiguous format (%s) checking %s (%s:%s).",
                      collapse_commas(format),
                      variable_information,
-                     wcvar,
-                     constraint));
+                     unique(wcvar),
+                     unique(constraint)));
             }
             debug_print(sprintf("variable: %s, constraint: %s, wc_variable: %s, codelist: %s, terms %s, data_type %s, format %s, mandatory %s",
                           variable_name,
@@ -390,7 +437,7 @@ check_where_clause <- function(dataset, spec, dataset_name, variable_name){
                           paste(codelist_terms, collapse = ",\n\t"),
                           data_type, format, mandatory));
             if(!is.na(codelist)){
-                r <- check_codelist(df, variable_name, codelist_terms, convert_yes_no_to_logical(mandatory));
+                r <- check_codelist(df, variable_name, codelist_terms, convert_yes_no_to_logical(mandatory), codelist);
                 r <- add_where_clause_context(r, variable_name, wcvar, constraint);
             } else {
                 r <- check_type(df, variable_name, data_type, format, convert_yes_no_to_logical(mandatory));
@@ -450,13 +497,13 @@ format_row_numbers <- function(row_numbers, max_n=10){
 #' check_numeric_codelist(df, "column_name", c("1", "2"), allow_na = TRUE)
 #' @author Vincent Toups
 #' @export
-check_numeric_codelist <- function(dataset, variable_name, codelist, allow_na = TRUE) {
+check_numeric_codelist <- function(dataset, variable_name, codelist, allow_na = TRUE, codelist_name) {
   # Convert the codelist and variable column to numeric
   codelist_numeric <- as.numeric(codelist)
   dataset[[variable_name]] <- as.numeric(dataset[[variable_name]])
   
   # Call the check_codelist function again
-  check_codelist(dataset, variable_name, codelist_numeric, allow_na)
+  check_codelist(dataset, variable_name, codelist_numeric, allow_na, codelist_name)
 }
 
 
@@ -471,13 +518,13 @@ check_numeric_codelist <- function(dataset, variable_name, codelist, allow_na = 
 #' @examples
 #' check_codelist(df, "column_name", c("value1", "value2"), allow_na = TRUE)
 #' @author Vincent Toups
-check_codelist <- function(dataset, variable_name, codelist, allow_na = TRUE){
+check_codelist <- function(dataset, variable_name, codelist, allow_na = TRUE, codelist_name=stop("You must specify a codelist name.")){
     if(length(unique(allow_na))!=1){
         stop(sprintf("in check_codelist non-uniform allow_na %s", collapse_commas(allow_na)));
     }
 
     if (is.character(codelist) & is_numeric_codelist(codelist)) {
-        return(check_numeric_codelist(dataset, variable_name, codelist, allow_na))
+        return(check_numeric_codelist(dataset, variable_name, codelist, allow_na, codelist_name))
     }
   
     messages <- tibble::tibble(check_name=character(0), pass=logical(0), message=character(0), row_numbers=character(0));
@@ -495,16 +542,16 @@ check_codelist <- function(dataset, variable_name, codelist, allow_na = TRUE){
     passed2 <- nrow(not_in_codelist) == 0;
     debug_print(messages);
     messages <- add_to_tibble(messages,
-                              check_name=sprintf("Column %s in codelist.", variable_name),
+                              check_name=sprintf("Column %s in codelist (%s).", variable_name, codelist_name),
                               pass=passed2,
                               message = if(passed2){
                                             "All columns in the codelist."
                                         } else {
                                             sprintf("%s: %d rows were not in the codelist (%s). These values were in error: (%s), this is the codelist: (%s). Common issues have to do with quotation marks, which must be ASCII, not Unicode, values.", variable_name,
                                                     length(not_in_codelist_values),
-                                                    codelist,
-                                                    collapse_commas(unique(not_in_codelist_values)),
-                                                    collapse_commas(codelist));
+                                                    codelist_name,
+                                                    collapse_newlines_tab(sort(unique(not_in_codelist_values))),
+                                                    collapse_newlines_tab(sort(unique(codelist))));
                                         },
                               row_numbers=format_row_numbers(not_in_codelist$index__));
     messages
@@ -753,7 +800,11 @@ check_float <- function(dataset, variable_name, format=NA, allow_na=FALSE){
     if(length(format)>1){
         stop("Multiple formats specified during check float", format);
     }
-    int_ii <- if(is.null(format)|is.na(format)){
+    ## print("WHAT")
+    ## print(format)
+    ## print(length(format))
+    
+    int_ii <- if(format=="" || length(format)==0 || is.null(format) || is.na(format)){
                   addendum <- "";
                   parses_as_float(not_na_rows[[unparsed_column_name(variable_name)]]);
               } else {
@@ -1016,6 +1067,13 @@ validate_dataset <- function(filename, combined_specs){
     messages <- tibble::tibble();
     warnings <- tibble::tibble();
     for(v in variables){
+        if(!v %in% colnames(data)) {
+            # If v is not in data's column names, add a message and skip to next iteration
+            messages <- rbind(messages, tibble::tibble(check_name=sprintf("Column %s exists.",v), message = sprintf("Expected column %s not found in dataset.", v),
+                                                       pass=FALSE,
+                                                       row_numbers=NA))
+            next
+        }
         reval::debug_print(sprintf("%s %s", domain, v));        
         reval::debug_print(sprintf("%s %s", v, get_variable_type(domain, v, combined_specs)));
         var_type <- get_variable_type(domain, v, combined_specs)
@@ -1033,7 +1091,7 @@ validate_dataset <- function(filename, combined_specs){
                    if(length(codelist_terms)==0 | (length(codelist_terms)==1 & is.na(unique(codelist_terms)[[1]]))) {
                        stop(sprintf("Variable %s's type was detected as codelist but codelist terms were NA or not found.", v));
                    }
-                   check_codelist(data, v, codelist_terms, mandatory);
+                   check_codelist(data, v, codelist_terms, mandatory, get_codelist_name(v, combined_specs));
                },
                integer = {
                    mandatory <- get_mandatory(domain, v, combined_specs);
