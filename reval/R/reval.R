@@ -1035,11 +1035,17 @@ find_name_pairs <- function(names) {
 #' specified in the `combined_specs` data frame. It checks the dataset for compliance with the specification
 #' information such as the variable type and if a variable is required to be mandatory, among other things.
 #'
-#' @param filename A string specifying the path of the file containing the dataset to be validated.
-#' @param combined_specs A data frame containing the specifications against which to validate the dataset.
-#'   This should include the columns: "dataset", "variable", "where_clause", "where_clause_variable",
-#'   "where_clause_value", "value_level_codelist", "value_level_data_type", "value_level_mandatory",
-#'   "value_level_format", "codelist", "codelist_terms", "format".
+#' @param filename A string specifying the path of the file containing
+#'     the dataset to be validated.
+#' @param combined_specs A data frame containing the specifications
+#'     against which to validate the dataset.  This should include the
+#'     columns: "dataset", "variable", "where_clause",
+#'     "where_clause_variable", "where_clause_value",
+#'     "value_level_codelist", "value_level_data_type",
+#'     "value_level_mandatory", "value_level_format", "codelist",
+#'     "codelist_terms", "format".
+#' @param write_report_to (default FALSE). If a filename is passed in
+#'     a text or csv file is written containing the failed tests.
 #'
 #' @return None. The function will stop and throw an error if the dataset fails to validate against the specifications.
 #'   During the process, it prints out debug information about the validation process, which can be useful for 
@@ -1052,7 +1058,16 @@ find_name_pairs <- function(names) {
 #'   # Suppose we have a dataset in "data.csv" and specifications in the `specs` data frame
 #'   validate_dataset("data.csv", specs)
 #' }
-validate_dataset <- function(filename, combined_specs){
+validate_dataset <- function(filename, combined_specs, write_report_to=FALSE){
+    if(is.null(filename)){
+        filename <- file.choose();
+    }
+    if (write_report_to != FALSE) {
+        extension <- tools::file_ext(write_report_to)
+        if (!(extension %in% c("csv", "txt"))) {
+            stop(sprintf("Only csv and txt files are supported. Received '%s'.", write_report_to))
+        }     
+    }
     data <- reval::reval_read_data(filename);
     domain <- data$DOMAIN[[1]];
     domain_spec <- combined_specs %>% dplyr::filter(combined_specs[["dataset"]]==domain);
@@ -1128,6 +1143,18 @@ validate_dataset <- function(filename, combined_specs){
                           )
                },
                stop(sprintf("Unrecognized variable type: %s for %s", var_type, v))));
+    }
+    if(write_report_to){
+        switch(tools::file_ext(write_report_to),
+               csv={
+                   messages %>% dplyr::filter(pass==FALSE) %>% dplyr::pull(message) %>% readr::write_csv(write_report_to);
+                   TRUE
+               },
+               txt={
+                   messages %>% dplyr::filter(pass==FALSE) %>% dplyr::pull(message) %>%
+                       cat(file=write_report_to,
+                           sep="\n\n");
+               });
     }
     messages
 }
