@@ -1,3 +1,51 @@
+#' Replace Unicode Quotation Marks in a String
+#'
+#' This function replaces all Unicode single and double quotation mark-like
+#' characters with their ASCII equivalents in a character string.
+#'
+#' @param input_str a character string
+#' @return a character string where all Unicode single and double quotation marks
+#'   have been replaced by ASCII equivalents.
+#' @export
+#'
+#' @examples
+#' replace_unicode_quotes(c("‘Hello, world!’", "“Hello, world!”"))
+#' # [1] "'Hello, world!'" '"Hello, world!"'
+replace_unicode_quotes <- function(input_str) {
+    # Replace unicode single quotes
+    input_str <- gsub("[‘’]", "'", input_str)
+    
+    # Replace unicode double quotes
+    input_str <- gsub("[“”]", '"', input_str)
+    
+    return(input_str)
+}
+
+#' Apply replace_unicode_quotes to All Character Columns of a Tibble
+#'
+#' This function applies the function replace_unicode_quotes to each character
+#' column of a tibble.
+#'
+#' @param tbl a tibble
+#' @return a tibble where all Unicode single and double quotation marks in all
+#'   character columns have been replaced by ASCII equivalents.
+#' @export
+#'
+#' @examples
+#' data <- tibble::tibble(
+#'   x = c("‘Hello, world!’", "“Hello, world!”"),
+#'   y = c("‘Goodbye, world!’", "“Goodbye, world!”")
+#' )
+#' apply_replace_quotes(data)
+#' # A tibble: 2 x 2
+#' #   x                y               
+#' #   <chr>            <chr>           
+#' # 1 'Hello, world!'  'Goodbye, world!'
+#' # 2 "Hello, world!"  "Goodbye, world!"
+apply_replace_quotes <- function(tbl) {
+    dplyr::mutate_if(tbl, is.character, replace_unicode_quotes)
+}
+
 #' Check if a character vector can be parsed entirely as numeric
 #'
 #' This function checks whether all elements in a character vector can be successfully
@@ -393,13 +441,18 @@ check_where_clause <- function(dataset, spec, dataset_name, variable_name){
                 ##              variable_name,
                 ##              unique(wcvar),
                 ##              unique(constraint)));
-                return(tibble(check_name=sprintf("No where_clause information when checking %s %s:%s.",
-                                                 variable_name,
-                                                 unique(wcvar),
-                                                 unique(constraint)),
-                              pass=FALSE,
-                              message=sprintf("The validator was unable to discover a where_clause for the value of the constraint variable %s %s. This may be because there is an error in the constraint variable column.", wcvar, constraint),
-                              row_numbers=NA));
+                ## return(tibble::tibble(check_name=sprintf("Looking for where clause information for  %s when %s is %s.",
+                ##                                  variable_name,
+                ##                                  unique(wcvar),
+                ##                                  unique(constraint)),
+                ##               pass=FALSE,
+                ##               message=sprintf("The validator was unable to discover a where_clause for %s for the value of the constraint variable %s %s. This may be because there is an error in the constraint variable column. Or it may mean that for the column %s when %s is %s no where-clause check is needed.", variable_name, wcvar, constraint),
+                ##               row_numbers=NA))
+                ;
+                return(tibble::tibble(check_name=character(0),
+                                      pass=logical(0),
+                                      message=character(0),
+                                      row_numbers=character(0)));
             }
             codelist <- unique(dplyr::pull(info, value_level_codelist));
             codelist <- na.exclude(codelist);
@@ -719,7 +772,7 @@ check_integer <- function(dataset, variable_name, format=NULL, allow_na=FALSE){
         messages <- base::rbind(messages, check_na(dataset, variable_name));
     }
     not_na_rows <- dataset %>% dplyr::filter(!na_ii);
-    int_ii <- if(is.null(format)) {
+    int_ii <- if(length(format)==0 || is.null(format)) {
                   addendum <- "";
                   parses_as_int(not_na_rows[[unparsed_column_name(variable_name)]]);
               } else {
@@ -1144,10 +1197,10 @@ validate_dataset <- function(filename, combined_specs, write_report_to=FALSE){
                },
                stop(sprintf("Unrecognized variable type: %s for %s", var_type, v))));
     }
-    if(write_report_to){
+    if(is.character(write_report_to)){
         switch(tools::file_ext(write_report_to),
                csv={
-                   messages %>% dplyr::filter(pass==FALSE) %>% dplyr::pull(message) %>% readr::write_csv(write_report_to);
+                   messages %>% dplyr::filter(pass==FALSE) %>% readr::write_csv(write_report_to);
                    TRUE
                },
                txt={
@@ -1340,6 +1393,7 @@ merge_spec_files <- function(spec_directory, sheet_names=c("Study", "Datasets", 
                          distinct() %>%
                          rename(codelist=id,
                                 codelist_terms=term),
-                         by=c("codelist","codelist_terms"));
+                         by=c("codelist","codelist_terms")) %>%
+        apply_replace_quotes();
 }
 

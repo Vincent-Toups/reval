@@ -4,15 +4,22 @@
 \alias{validate_dataset}
 \title{Validate a dataset against a provided specification.}
 \usage{
-validate_dataset(filename, combined_specs)
+validate_dataset(filename, combined_specs, write_report_to = FALSE)
 }
 \arguments{
-\item{filename}{A string specifying the path of the file containing the dataset to be validated.}
+\item{filename}{A string specifying the path of the file containing
+the dataset to be validated.}
 
-\item{combined_specs}{A data frame containing the specifications against which to validate the dataset.
-This should include the columns: "dataset", "variable", "where_clause", "where_clause_variable",
-"where_clause_value", "value_level_codelist", "value_level_data_type", "value_level_mandatory",
-"value_level_format", "codelist", "codelist_terms", "format".}
+\item{combined_specs}{A data frame containing the specifications
+against which to validate the dataset.  This should include the
+columns: "dataset", "variable", "where_clause",
+"where_clause_variable", "where_clause_value",
+"value_level_codelist", "value_level_data_type",
+"value_level_mandatory", "value_level_format", "codelist",
+"codelist_terms", "format".}
+
+\item{write_report_to}{(default FALSE). If a filename is passed in
+a text or csv file is written containing the failed tests.}
 }
 \value{
 None. The function will stop and throw an error if the dataset fails to validate against the specifications.
