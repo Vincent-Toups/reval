@@ -63,5 +63,56 @@ while (( "$#" )); do
       ;;
   esac
 done
+echo "Building Docker container $CONTAINER_NAME..."
+docker build . --build-arg linux_user_pwd="$PASSWORD" -t $CONTAINER_NAME
 
-# ... rest of your script ...
+# Allow local connections to the X server for Emacs
+xhost +SI:localuser:$(whoami)
+
+echo "Launching $APP in container $CONTAINER_NAME on port $PORT..."
+
+# Set APP from the trailing command line argument if present
+if [[ -n "$PARAMS" ]]; then
+    APP="$PARAMS"
+fi
+
+echo "Launching $APP in container $CONTAINER_NAME on port $PORT..."
+
+if [[ "$APP" == "rstudio" ]]; then
+    # When APP is "rstudio", don't pass any command
+    docker run  \
+           -p $PORT:8787 \
+           -v $HOME/.emacs.d:/home/rstudio/.emacs.d \
+           -v $HOME/.emacs-trash:/home/rstudio/.emacs-trash \
+           -v $(pwd):/home/rstudio/work \
+           --user rstudio \
+           --workdir /home/rstudio/work\
+           --hostname val-eng\
+           -e DISPLAY=:0\
+           -v /tmp/.X11-unix/X0:/tmp/.X11-unix/X0\
+           -e PASSWORD="$PASSWORD" \
+           -it $CONTAINER_NAME
+else
+    # When APP is "emacs", pass the command to run
+    docker run \
+           -p $PORT:8787 \
+           -v $HOME/.emacs.d:/home/rstudio/.emacs.d \
+           -v $HOME/.emacs-trash:/home/rstudio/.emacs-trash \
+	   -v $HOME/emacs-local:/home/rstudio/emacs-local \
+           -v $(pwd):/home/rstudio/work \
+           --user rstudio \
+           --workdir /home/rstudio/work\
+           --hostname val-eng\
+           -e DISPLAY=:0\
+           -v /tmp/.X11-unix/X0:/tmp/.X11-unix/X0\
+           -e PASSWORD="$PASSWORD" \
+           -it $CONTAINER_NAME\
+           emacs
+fi
+
+# If we're running Rstudio, print the password
+if [[ "$APP" == "rstudio" ]]; then
+    echo "The password for Rstudio is: $PASSWORD"
+fi
+
+
