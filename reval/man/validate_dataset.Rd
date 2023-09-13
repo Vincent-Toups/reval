@@ -4,7 +4,11 @@
 \alias{validate_dataset}
 \title{Validate a dataset against a provided specification.}
 \usage{
-validate_dataset(filename, combined_specs, write_report_to = FALSE)
+validate_dataset(
+  filename,
+  combined_specs = min_data_set_spec,
+  write_report_to = FALSE
+)
 }
 \arguments{
 \item{filename}{A string specifying the path of the file containing
