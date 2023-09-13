@@ -1,0 +1,643 @@
+STUDYID,DOMAIN,VISITNUM,VISIT,EXSEQ,EXDTC,EXDY,EXTRT,EXCAT,EXTRTOTH,EXACN,EXADJ,EXDOSE,EXDOSEU,EXROUTE,EXEVLINT,USUBJID
+TEST,EX,25,Week 25,1,2021-12-06,176,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-67
+TEST,EX,25,Week 25,2,2022-12-07,173,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-67
+TEST,EX,25,Week 25,3,2021-12-06,176,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-67
+TEST,EX,25,Week 25,1,2022-09-21,174,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-187
+TEST,EX,25,Week 25,2,2022-05-02,176,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-187
+TEST,EX,27,Week 27,1,2022-01-05,184,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-100
+TEST,EX,27,Week 27,2,2022-12-07,190,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-100
+TEST,EX,26,Week 26,1,2023-02-06,179,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-147
+TEST,EX,26,Week 26,2,2022-01-04,180,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-147
+TEST,EX,26,Week 26,3,2022-02-18,178,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-147
+TEST,EX,27,Week 27,1,2022-01-05,184,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-133
+TEST,EX,27,Week 27,2,2022-01-05,184,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-133
+TEST,EX,27,Week 27,3,2022-11-03,184,SSRI_SNRI,Medication,NA,New prescription/medication,NA,NA,NA,NA,-P1M,TEST-133
+TEST,EX,28,Week 28,1,2022-03-08,195,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-101
+TEST,EX,28,Week 28,2,2022-01-28,193,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-101
+TEST,EX,27,Week 27,1,2022-01-05,184,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-174
+TEST,EX,27,Week 27,2,2022-01-19,189,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-174
+TEST,EX,27,Week 27,3,2022-01-26,189,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-174
+TEST,EX,26,Week 26,1,2022-11-29,177,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-55
+TEST,EX,26,Week 26,2,2022-11-07,182,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-55
+TEST,EX,26,Week 26,3,2022-08-29,182,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-55
+TEST,EX,26,Week 26,1,2022-11-29,177,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-154
+TEST,EX,26,Week 26,2,2022-02-04,183,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-154
+TEST,EX,25,Week 25,1,2022-02-03,176,Exercise,Diet and exercise,NA,NA,NA,2.2,Days per week,NA,-P1M,TEST-68
+TEST,EX,25,Week 25,2,2021-12-09,176,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-68
+TEST,EX,15,Week 15,1,2022-08-16,104,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-33
+TEST,EX,15,Week 15,2,2022-12-20,103,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-33
+TEST,EX,26,Week 26,3,2022-08-29,182,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-33
+TEST,EX,15,Week 15,4,2022-05-05,106,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-33
+TEST,EX,15,Week 15,5,2022-06-29,104,Tricyclic antidepressants,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-33
+TEST,EX,16,Week 16,1,2022-10-07,110,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-27
+TEST,EX,16,Week 16,2,2022-06-21,107,Exercise,Diet and exercise,NA,NA,NA,3.1,Days per week,NA,-P1M,TEST-27
+TEST,EX,16,Week 16,3,2022-12-01,109,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-27
+TEST,EX,28,Week 28,1,2022-03-08,195,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-50
+TEST,EX,17,Week 17,2,2022-11-17,119,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-50
+TEST,EX,28,Week 28,3,2022-03-08,195,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-50
+TEST,EX,28,Week 28,4,2023-02-03,197,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-50
+TEST,EX,17,Week 17,5,2023-02-28,119,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-50
+TEST,EX,28,Week 28,6,2022-03-08,195,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-50
+TEST,EX,16,Week 16,1,2022-12-01,109,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-42
+TEST,EX,16,Week 16,1,2023-01-25,108,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-148
+TEST,EX,16,Week 16,2,2022-06-21,107,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-148
+TEST,EX,26,Week 26,3,2022-02-18,178,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-148
+TEST,EX,14,Week 14,1,2022-02-04,99,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-46
+TEST,EX,14,Week 14,2,2021-12-20,99,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-46
+TEST,EX,24,Week 24,3,2023-02-21,166,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-46
+TEST,EX,25,Week 25,1,2022-05-25,175,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-32
+TEST,EX,25,Week 25,2,2021-12-09,176,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-32
+TEST,EX,16,Week 16,1,2021-12-13,110,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-127
+TEST,EX,15,Week 15,1,2022-08-16,105,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-128
+TEST,EX,15,Week 15,2,2022-12-20,103,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-128
+TEST,EX,15,Week 15,3,2022-10-25,105,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,2,Days per week,NA,-P1M,TEST-128
+TEST,EX,15,Week 15,1,2022-09-15,105,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-90
+TEST,EX,15,Week 15,2,2021-12-07,105,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,Telehealth,-P1M,TEST-90
+TEST,EX,24,Week 24,3,2023-02-09,163,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-90
+TEST,EX,24,Week 24,1,2022-08-16,168,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-52
+TEST,EX,24,Week 24,2,2022-05-17,168,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,Telehealth,-P1M,TEST-52
+TEST,EX,24,Week 24,3,2022-08-17,163,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-52
+TEST,EX,15,Week 15,4,2022-04-29,106,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-52
+TEST,EX,24,Week 24,5,2022-05-24,169,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-52
+TEST,EX,24,Week 24,1,2022-03-30,168,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-134
+TEST,EX,24,Week 24,2,2022-05-17,168,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-134
+TEST,EX,33,Week 33,3,2022-06-08,232,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-134
+TEST,EX,33,Week 33,4,2022-06-08,232,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-134
+TEST,EX,17,Week 17,1,2022-02-15,118,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-21
+TEST,EX,15,Week 15,1,2023-01-24,106,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-94
+TEST,EX,15,Week 15,2,2022-02-09,104,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-94
+TEST,EX,15,Week 15,3,2022-04-29,106,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-94
+TEST,EX,25,Week 25,4,2022-04-20,174,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-94
+TEST,EX,14,Week 14,1,2022-06-13,98,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-22
+TEST,EX,14,Week 14,2,2022-08-11,94,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-22
+TEST,EX,24,Week 24,3,2022-03-30,168,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-22
+TEST,EX,25,Week 25,1,2022-11-11,176,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-145
+TEST,EX,15,Week 15,2,2022-05-05,106,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-145
+TEST,EX,15,Week 15,3,2022-02-09,104,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-145
+TEST,EX,25,Week 25,4,2022-10-25,174,Exercise,Diet and exercise,NA,NA,NA,3.1,Days per week,NA,-P1M,TEST-145
+TEST,EX,25,Week 25,5,2022-12-12,176,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-145
+TEST,EX,25,Week 25,6,2022-07-06,176,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-145
+TEST,EX,15,Week 15,7,2022-09-13,105,Other,"PT, OT, or chiropractic",Acupressure,NA,NA,NA,NA,NA,-P1M,TEST-145
+TEST,EX,25,Week 25,8,2022-07-06,176,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-145
+TEST,EX,15,Week 15,1,2022-02-17,102,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-28
+TEST,EX,25,Week 25,2,2022-07-22,171,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-28
+TEST,EX,24,Week 24,1,2022-09-01,168,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-88
+TEST,EX,24,Week 24,1,2023-02-09,163,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-9
+TEST,EX,24,Week 24,2,2022-10-26,167,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-9
+TEST,EX,24,Week 24,3,2022-06-15,164,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-9
+TEST,EX,25,Week 25,1,2022-11-11,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,0,Week 0,2,2022-08-19,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,16,Week 16,3,2021-12-13,110,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,25,Week 25,4,2022-05-25,175,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,16,Week 16,5,2022-09-26,113,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,16,Week 16,6,2023-02-23,113,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-169
+TEST,EX,0,Week 0,7,2021-12-02,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,16,Week 16,8,2022-03-23,112,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,16,Week 16,9,2022-03-23,112,Other,"PT, OT, or chiropractic",Stim aid cranial electro therapy stimulator for my neck and shoulder. But it has help in my back,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,16,Week 16,10,2022-03-23,112,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-169
+TEST,EX,0,Week 0,11,2021-12-02,1,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-169
+TEST,EX,15,Week 15,1,2022-07-18,106,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-40
+TEST,EX,0,Week 0,2,2023-01-23,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-40
+TEST,EX,0,Week 0,3,2022-05-05,1,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-40
+TEST,EX,25,Week 25,1,2022-11-11,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-166
+TEST,EX,0,Week 0,2,2023-01-17,1,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-166
+TEST,EX,25,Week 25,3,2022-07-06,176,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,6,Days per week,NA,-P1M,TEST-166
+TEST,EX,0,Week 0,4,2022-11-08,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-166
+TEST,EX,15,Week 15,5,2022-09-30,100,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-166
+TEST,EX,17,Week 17,1,2023-02-28,119,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,1.9,Days per week,NA,-P1M,TEST-15
+TEST,EX,15,Week 15,1,2022-02-08,106,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-160
+TEST,EX,0,Week 0,2,2022-07-21,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,1,Days per week,NA,-P1M,TEST-160
+TEST,EX,0,Week 0,3,2022-10-31,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-160
+TEST,EX,15,Week 15,4,2022-01-26,105,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-160
+TEST,EX,24,Week 24,5,2022-06-15,164,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-160
+TEST,EX,15,Week 15,6,2022-03-22,106,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-160
+TEST,EX,16,Week 16,1,2022-11-28,110,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-115
+TEST,EX,16,Week 16,2,2022-01-03,111,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-115
+TEST,EX,28,Week 28,3,2022-03-08,195,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-115
+TEST,EX,1,Week 1,1,2022-11-05,3,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-132
+TEST,EX,16,Week 16,2,2022-06-20,112,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-132
+TEST,EX,16,Week 16,3,2022-03-23,112,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-132
+TEST,EX,1,Week 1,4,2022-11-05,3,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-132
+TEST,EX,16,Week 16,5,2022-03-23,112,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-132
+TEST,EX,16,Week 16,6,2023-02-23,113,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-132
+TEST,EX,15,Week 15,1,2022-01-21,101,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-58
+TEST,EX,0,Week 0,2,2022-05-23,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-58
+TEST,EX,24,Week 24,3,2022-03-30,168,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-58
+TEST,EX,24,Week 24,4,2022-10-26,167,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-58
+TEST,EX,24,Week 24,5,2022-05-24,169,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-58
+TEST,EX,0,Week 0,1,2022-01-12,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-184
+TEST,EX,26,Week 26,2,2022-07-08,183,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-184
+TEST,EX,0,Week 0,3,2022-01-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-184
+TEST,EX,26,Week 26,4,2022-11-30,183,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-184
+TEST,EX,0,Week 0,1,2022-07-05,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5.1,Days per week,NA,-P1M,TEST-143
+TEST,EX,15,Week 15,2,2021-12-07,105,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-143
+TEST,EX,0,Week 0,3,2023-02-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-143
+TEST,EX,15,Week 15,4,2022-04-29,106,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-143
+TEST,EX,25,Week 25,5,2022-04-20,174,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-143
+TEST,EX,0,Week 0,1,2022-02-08,1,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-107
+TEST,EX,16,Week 16,2,2022-05-18,112,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-107
+TEST,EX,25,Week 25,3,2021-12-06,176,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-107
+TEST,EX,0,Week 0,4,2022-08-31,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-107
+TEST,EX,16,Week 16,5,2023-02-23,113,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-107
+TEST,EX,25,Week 25,6,2023-01-04,176,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-107
+TEST,EX,16,Week 16,7,2022-12-01,109,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-107
+TEST,EX,25,Week 25,8,2022-04-20,174,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-107
+TEST,EX,0,Week 0,1,2023-01-24,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-142
+TEST,EX,0,Week 0,2,2022-04-21,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-142
+TEST,EX,0,Week 0,3,2022-05-21,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-142
+TEST,EX,0,Week 0,4,2022-06-06,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-142
+TEST,EX,0,Week 0,1,2022-09-15,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-104
+TEST,EX,1,Week 1,1,2021-12-20,5,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-20
+TEST,EX,15,Week 15,2,2022-04-29,106,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-20
+TEST,EX,15,Week 15,3,2023-02-08,100,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-20
+TEST,EX,15,Week 15,4,2022-06-10,101,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-20
+TEST,EX,26,Week 26,5,2022-07-13,181,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-20
+TEST,EX,1,Week 1,1,2022-02-21,5,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-121
+TEST,EX,15,Week 15,2,2022-02-09,104,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-121
+TEST,EX,25,Week 25,3,2022-07-12,174,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-121
+TEST,EX,15,Week 15,4,2022-09-30,100,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-121
+TEST,EX,0,Week 0,1,2023-02-17,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-7
+TEST,EX,0,Week 0,2,2023-03-06,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-7
+TEST,EX,0,Week 0,1,2022-11-08,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-78
+TEST,EX,16,Week 16,2,2023-02-03,109,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-78
+TEST,EX,0,Week 0,1,2022-03-07,1,Exercise,Diet and exercise,NA,NA,NA,6,Days per week,NA,-P1M,TEST-176
+TEST,EX,25,Week 25,1,2021-12-09,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-43
+TEST,EX,25,Week 25,2,2022-03-15,176,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-43
+TEST,EX,30,Week 30,1,2022-10-06,211,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-116
+TEST,EX,17,Week 17,2,2023-02-28,119,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-116
+TEST,EX,30,Week 30,3,2022-10-06,211,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-116
+TEST,EX,0,Week 0,1,2023-01-17,1,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-144
+TEST,EX,0,Week 0,1,2022-07-19,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-31
+TEST,EX,0,Week 0,2,2022-02-08,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-31
+TEST,EX,0,Week 0,1,2023-02-17,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-112
+TEST,EX,24,Week 24,2,2022-03-30,168,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-112
+TEST,EX,24,Week 24,3,2022-08-16,168,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-112
+TEST,EX,0,Week 0,1,2022-12-14,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-38
+TEST,EX,0,Week 0,2,2022-05-04,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5,Days per week,NA,-P1M,TEST-38
+TEST,EX,0,Week 0,3,2022-10-18,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-38
+TEST,EX,16,Week 16,4,2022-07-20,111,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-38
+TEST,EX,0,Week 0,5,2022-08-31,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-38
+TEST,EX,14,Week 14,1,2021-12-20,99,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-23
+TEST,EX,14,Week 14,2,2022-05-24,97,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-23
+TEST,EX,14,Week 14,3,2022-08-09,98,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-23
+TEST,EX,0,Week 0,4,2022-12-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-23
+TEST,EX,14,Week 14,5,2022-08-09,98,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-23
+TEST,EX,24,Week 24,6,2022-07-29,163,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-23
+TEST,EX,24,Week 24,7,2022-09-01,168,Other,"PT, OT, or chiropractic",Meditation,NA,NA,NA,NA,NA,-P1M,TEST-23
+TEST,EX,24,Week 24,8,2022-07-29,163,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-23
+TEST,EX,0,Week 0,1,2022-02-14,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-126
+TEST,EX,0,Week 0,2,2022-09-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-126
+TEST,EX,1,Week 1,1,2022-01-17,4,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-138
+TEST,EX,1,Week 1,2,2022-02-21,5,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-138
+TEST,EX,1,Week 1,1,2021-12-20,5,Non-spinal fusion,Surgery,NA,NA,NA,NA,NA,NA,-P1M,TEST-77
+TEST,EX,0,Week 0,1,2022-09-15,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-59
+TEST,EX,0,Week 0,2,2022-03-17,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-59
+TEST,EX,27,Week 27,1,2022-08-30,187,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-16
+TEST,EX,17,Week 17,2,2023-02-28,118,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-16
+TEST,EX,0,Week 0,3,2022-01-07,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-16
+TEST,EX,17,Week 17,4,2023-03-02,116,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5,Days per week,NA,-P1M,TEST-16
+TEST,EX,27,Week 27,5,2022-08-30,187,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,6,Days per week,NA,-P1M,TEST-16
+TEST,EX,0,Week 0,6,2022-05-09,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-16
+TEST,EX,17,Week 17,7,2022-06-24,120,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-16
+TEST,EX,27,Week 27,8,2022-12-06,188,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-16
+TEST,EX,27,Week 27,9,2022-12-06,188,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-16
+TEST,EX,0,Week 0,1,2022-11-08,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-79
+TEST,EX,16,Week 16,2,2022-04-28,107,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-79
+TEST,EX,26,Week 26,3,2022-02-18,178,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-79
+TEST,EX,15,Week 15,1,2023-02-08,100,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-71
+TEST,EX,0,Week 0,2,2022-09-14,1,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-71
+TEST,EX,24,Week 24,1,2022-08-16,168,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-156
+TEST,EX,15,Week 15,2,2022-12-20,103,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-156
+TEST,EX,24,Week 24,3,2022-08-16,168,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-156
+TEST,EX,15,Week 15,4,2022-05-05,106,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-156
+TEST,EX,0,Week 0,1,2022-09-15,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-83
+TEST,EX,0,Week 0,2,2022-08-17,1,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-83
+TEST,EX,27,Week 27,3,2022-11-03,184,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4.5,Days per week,NA,-P1M,TEST-83
+TEST,EX,0,Week 0,1,2022-09-19,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-87
+TEST,EX,16,Week 16,2,2023-02-15,108,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-87
+TEST,EX,0,Week 0,1,2022-03-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-48
+TEST,EX,14,Week 14,1,2022-02-04,99,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-190
+TEST,EX,14,Week 14,2,2022-06-13,98,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-190
+TEST,EX,24,Week 24,3,2022-07-22,163,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-190
+TEST,EX,0,Week 0,1,2023-02-27,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-137
+TEST,EX,24,Week 24,2,2022-04-04,167,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-137
+TEST,EX,24,Week 24,3,2022-07-22,163,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-137
+TEST,EX,22,Week 22,1,2023-02-14,154,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-76
+TEST,EX,22,Week 22,2,2022-08-16,155,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-76
+TEST,EX,31,Week 31,3,2022-10-18,218,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-76
+TEST,EX,22,Week 22,4,2023-02-14,154,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-76
+TEST,EX,15,Week 15,1,2023-02-08,100,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,3,Days per week,NA,-P1M,TEST-124
+TEST,EX,0,Week 0,2,2022-08-19,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-124
+TEST,EX,15,Week 15,3,2022-01-21,101,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-124
+TEST,EX,25,Week 25,4,2022-09-02,170,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-124
+TEST,EX,15,Week 15,5,2022-08-24,105,Other,"PT, OT, or chiropractic",BACPAC study group assigned to,NA,NA,NA,NA,NA,-P1M,TEST-124
+TEST,EX,24,Week 24,1,2022-03-30,168,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,0,Week 0,2,2022-02-08,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,15,Week 15,3,2022-07-18,106,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,24,Week 24,4,2022-10-26,167,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,15,Week 15,5,2022-10-25,105,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,24,Week 24,6,2022-10-13,163,NSAIDs,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,24,Week 24,7,2022-07-29,163,SSRI_SNRI,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,0,Week 0,8,2022-03-18,1,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-168
+TEST,EX,17,Week 17,1,2022-07-25,115,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,0,Week 0,2,2022-12-13,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,17,Week 17,3,2023-03-02,116,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,27,Week 27,4,2022-10-27,190,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,17,Week 17,5,2023-02-28,119,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,0,Week 0,6,2022-03-24,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,0,Week 0,7,2023-01-19,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,17,Week 17,8,2022-07-21,120,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-57
+TEST,EX,0,Week 0,1,2022-11-19,1,Other,"PT, OT, or chiropractic",Zero Balancing,NA,NA,NA,NA,NA,-P1M,TEST-65
+TEST,EX,25,Week 25,1,2021-12-09,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-47
+TEST,EX,25,Week 25,2,2022-12-07,173,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-47
+TEST,EX,1,Week 1,3,2022-04-03,3,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,Telehealth,-P1M,TEST-47
+TEST,EX,16,Week 16,4,2023-02-03,109,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-47
+TEST,EX,25,Week 25,5,2022-06-28,173,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-47
+TEST,EX,16,Week 16,6,2022-03-23,112,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5.1,Days per week,NA,-P1M,TEST-47
+TEST,EX,25,Week 25,7,2022-09-21,174,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-47
+TEST,EX,1,Week 1,8,2022-04-03,3,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-47
+TEST,EX,0,Week 0,1,2023-02-21,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-183
+TEST,EX,17,Week 17,1,2022-09-27,118,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-30
+TEST,EX,18,Week 18,1,2023-03-03,122,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-1
+TEST,EX,18,Week 18,2,2023-01-18,121,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-1
+TEST,EX,15,Week 15,1,2023-02-08,100,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-120
+TEST,EX,0,Week 0,2,2022-07-21,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-120
+TEST,EX,15,Week 15,3,2022-10-25,105,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-120
+TEST,EX,0,Week 0,4,2022-11-01,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-120
+TEST,EX,0,Week 0,1,2022-03-01,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-136
+TEST,EX,0,Week 0,2,2022-01-03,1,Exercise,Diet and exercise,NA,NA,NA,5.2,Days per week,NA,-P1M,TEST-136
+TEST,EX,0,Week 0,3,2023-02-10,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-136
+TEST,EX,18,Week 18,1,2023-02-02,122,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-153
+TEST,EX,18,Week 18,2,2023-03-03,122,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-153
+TEST,EX,24,Week 24,1,2022-10-26,167,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-19
+TEST,EX,0,Week 0,1,2022-11-19,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-39
+TEST,EX,16,Week 16,1,2022-10-07,110,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-110
+TEST,EX,27,Week 27,1,2022-01-26,189,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-165
+TEST,EX,0,Week 0,2,2023-02-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-165
+TEST,EX,18,Week 18,3,2022-11-05,121,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-165
+TEST,EX,27,Week 27,4,2022-09-27,188,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-165
+TEST,EX,16,Week 16,1,2021-12-16,108,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-170
+TEST,EX,15,Week 15,1,2022-01-21,100,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-17
+TEST,EX,0,Week 0,2,2022-02-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-17
+TEST,EX,27,Week 27,3,2022-09-08,186,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-17
+TEST,EX,24,Week 24,1,2022-10-26,167,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-6
+TEST,EX,24,Week 24,2,2022-07-22,163,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-6
+TEST,EX,14,Week 14,3,2022-08-09,98,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-6
+TEST,EX,24,Week 24,4,2022-10-26,167,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-6
+TEST,EX,14,Week 14,5,2022-08-09,98,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-6
+TEST,EX,24,Week 24,6,2022-09-01,168,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-6
+TEST,EX,15,Week 15,1,2022-09-13,105,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-34
+TEST,EX,0,Week 0,2,2022-04-05,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-34
+TEST,EX,0,Week 0,3,2022-04-05,1,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-34
+TEST,EX,25,Week 25,4,2022-10-25,174,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-34
+TEST,EX,0,Week 0,5,2022-02-14,1,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-34
+TEST,EX,25,Week 25,6,2022-07-06,176,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-34
+TEST,EX,0,Week 0,1,2022-10-31,1,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-141
+TEST,EX,28,Week 28,2,2023-01-20,197,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-141
+TEST,EX,0,Week 0,3,2022-10-07,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-141
+TEST,EX,28,Week 28,4,2022-11-17,193,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-141
+TEST,EX,28,Week 28,5,2022-11-17,193,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-141
+TEST,EX,0,Week 0,6,2022-02-25,1,Low back pain injection,Injection,NA,NA,NA,NA,NA,NA,-P1M,TEST-141
+TEST,EX,16,Week 16,1,2022-01-03,111,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-73
+TEST,EX,16,Week 16,2,2021-12-13,110,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-73
+TEST,EX,26,Week 26,1,2022-11-07,182,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-53
+TEST,EX,26,Week 26,2,2022-01-31,183,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-53
+TEST,EX,16,Week 16,3,2023-02-23,113,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-53
+TEST,EX,23,Week 23,1,2023-01-19,158,Low back pain injection,Injection,NA,NA,NA,NA,NA,NA,-P1M,TEST-84
+TEST,EX,14,Week 14,2,2022-06-13,98,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-84
+TEST,EX,15,Week 15,1,2022-06-13,105,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-102
+TEST,EX,0,Week 0,2,2023-02-07,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-102
+TEST,EX,0,Week 0,3,2023-02-17,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-102
+TEST,EX,0,Week 0,4,2022-01-12,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-102
+TEST,EX,15,Week 15,5,2022-08-24,105,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-102
+TEST,EX,24,Week 24,6,2022-07-29,163,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-102
+TEST,EX,16,Week 16,1,2022-08-30,110,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-56
+TEST,EX,24,Week 24,1,2022-05-17,168,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-177
+TEST,EX,24,Week 24,2,2022-10-26,167,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-177
+TEST,EX,24,Week 24,3,2022-04-15,169,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-177
+TEST,EX,24,Week 24,4,2022-10-26,167,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-177
+TEST,EX,15,Week 15,1,2022-01-21,100,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-11
+TEST,EX,25,Week 25,1,2022-11-11,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-164
+TEST,EX,15,Week 15,2,2022-04-29,106,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-164
+TEST,EX,25,Week 25,1,2021-12-06,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-96
+TEST,EX,25,Week 25,2,2022-07-22,171,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-96
+TEST,EX,0,Week 0,3,2022-10-18,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-96
+TEST,EX,15,Week 15,4,2022-09-30,100,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-96
+TEST,EX,25,Week 25,5,2022-12-12,176,Exercise,Diet and exercise,NA,NA,NA,5,Days per week,NA,-P1M,TEST-96
+TEST,EX,25,Week 25,6,2022-07-06,176,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-96
+TEST,EX,0,Week 0,1,2022-01-12,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-122
+TEST,EX,0,Week 0,2,2022-04-05,1,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-122
+TEST,EX,0,Week 0,1,2022-01-12,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-150
+TEST,EX,15,Week 15,2,2021-12-07,105,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-150
+TEST,EX,0,Week 0,3,2022-02-25,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-150
+TEST,EX,15,Week 15,4,2022-09-30,100,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-150
+TEST,EX,15,Week 15,5,2022-06-29,104,Exercise,Diet and exercise,NA,NA,NA,6,Days per week,NA,-P1M,TEST-150
+TEST,EX,18,Week 18,1,2023-02-02,122,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-125
+TEST,EX,27,Week 27,2,2022-01-19,189,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-125
+TEST,EX,15,Week 15,1,2023-01-19,106,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,0,Week 0,2,2023-03-06,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,15,Week 15,3,2022-02-08,106,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,26,Week 26,4,2023-02-20,179,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,26,Week 26,5,2023-02-15,183,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,0,Week 0,6,2022-02-25,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-51
+TEST,EX,15,Week 15,7,2022-09-13,105,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,26,Week 26,8,2023-02-15,183,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,26,Week 26,9,2023-02-15,183,Non-spinal fusion,Surgery,NA,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,26,Week 26,10,2022-11-30,183,Other,"PT, OT, or chiropractic",Rhizotomy,NA,NA,NA,NA,NA,-P1M,TEST-51
+TEST,EX,17,Week 17,1,2022-09-27,118,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,27,Week 27,2,2022-01-05,184,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,17,Week 17,3,2023-03-02,116,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,17,Week 17,4,2023-02-28,119,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4.5,Days per week,NA,-P1M,TEST-129
+TEST,EX,27,Week 27,5,2022-12-06,188,Exercise,Diet and exercise,NA,NA,NA,1,Days per week,NA,-P1M,TEST-129
+TEST,EX,27,Week 27,6,2022-12-06,188,Low back pain injection,Injection,NA,NA,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,17,Week 17,7,2022-06-24,120,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,27,Week 27,8,2022-12-06,188,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,27,Week 27,9,2022-12-06,188,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-129
+TEST,EX,15,Week 15,1,2022-04-13,101,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-70
+TEST,EX,26,Week 26,1,2022-11-29,177,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-95
+TEST,EX,0,Week 0,2,2022-05-05,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-95
+TEST,EX,26,Week 26,3,2022-03-10,177,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-95
+TEST,EX,0,Week 0,4,2022-05-12,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5,Days per week,NA,-P1M,TEST-95
+TEST,EX,16,Week 16,5,2023-02-15,108,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-95
+TEST,EX,26,Week 26,6,2022-12-05,183,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-95
+TEST,EX,16,Week 16,7,2022-12-01,109,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-95
+TEST,EX,26,Week 26,1,2022-01-31,183,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-24
+TEST,EX,0,Week 0,1,2022-08-03,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-60
+TEST,EX,0,Week 0,2,2022-01-03,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-60
+TEST,EX,26,Week 26,1,2023-02-06,179,SSRI_SNRI,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-37
+TEST,EX,0,Week 0,1,2022-06-14,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-172
+TEST,EX,30,Week 30,1,2022-10-06,211,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-161
+TEST,EX,30,Week 30,2,2023-01-07,206,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-161
+TEST,EX,0,Week 0,1,2022-11-01,1,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-63
+TEST,EX,25,Week 25,2,2022-02-03,176,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-63
+TEST,EX,0,Week 0,3,2022-01-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-63
+TEST,EX,25,Week 25,4,2022-09-02,170,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-63
+TEST,EX,0,Week 0,5,2022-06-18,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-63
+TEST,EX,25,Week 25,6,2022-12-07,173,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-63
+TEST,EX,16,Week 16,1,2022-08-25,109,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-175
+TEST,EX,16,Week 16,2,2022-04-04,110,Exercise,Diet and exercise,NA,NA,NA,5,Days per week,NA,-P1M,TEST-175
+TEST,EX,25,Week 25,1,2022-04-20,174,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-181
+TEST,EX,25,Week 25,2,2022-11-09,173,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-181
+TEST,EX,15,Week 15,3,2022-04-29,106,Other,"PT, OT, or chiropractic",massage,NA,NA,NA,NA,NA,-P1M,TEST-181
+TEST,EX,0,Week 0,4,2022-02-17,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-181
+TEST,EX,25,Week 25,5,2022-09-21,174,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-181
+TEST,EX,0,Week 0,1,2022-07-19,1,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-192
+TEST,EX,16,Week 16,1,2022-08-30,110,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-108
+TEST,EX,28,Week 28,2,2022-01-28,193,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-108
+TEST,EX,1,Week 1,1,2022-02-21,5,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-98
+TEST,EX,18,Week 18,2,2022-08-06,127,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-98
+TEST,EX,18,Week 18,3,2023-01-18,122,Other,"PT, OT, or chiropractic",Self stretching,NA,NA,NA,NA,NA,-P1M,TEST-98
+TEST,EX,25,Week 25,1,2022-12-12,176,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-146
+TEST,EX,0,Week 0,2,2023-02-07,1,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-146
+TEST,EX,15,Week 15,3,2022-02-08,106,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5.1,Days per week,NA,-P1M,TEST-146
+TEST,EX,25,Week 25,4,2022-09-02,170,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-146
+TEST,EX,15,Week 15,5,2022-08-24,105,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-146
+TEST,EX,25,Week 25,6,2022-10-25,174,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-146
+TEST,EX,15,Week 15,7,2022-02-09,104,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-146
+TEST,EX,0,Week 0,1,2022-03-09,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-69
+TEST,EX,0,Week 0,2,2022-07-21,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-69
+TEST,EX,18,Week 18,3,2023-01-18,122,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-69
+TEST,EX,0,Week 0,1,2022-09-19,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5,Days per week,NA,-P1M,TEST-111
+TEST,EX,0,Week 0,1,2022-03-07,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-26
+TEST,EX,0,Week 0,1,2022-11-08,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-4
+TEST,EX,0,Week 0,2,2022-08-17,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-4
+TEST,EX,17,Week 17,3,2022-09-27,118,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-4
+TEST,EX,17,Week 17,1,2022-03-29,114,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-85
+TEST,EX,17,Week 17,2,2023-02-28,119,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-85
+TEST,EX,28,Week 28,3,2022-03-08,195,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,6,Days per week,NA,-P1M,TEST-85
+TEST,EX,28,Week 28,4,2022-11-17,193,Gabapentin or pregabalin,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-85
+TEST,EX,0,Week 0,5,2022-08-31,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-85
+TEST,EX,17,Week 17,6,2022-11-17,119,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-85
+TEST,EX,28,Week 28,7,2023-02-03,197,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-85
+TEST,EX,28,Week 28,8,2023-02-03,197,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-85
+TEST,EX,28,Week 28,9,2023-02-03,197,SSRI_SNRI,Medication,NA,New prescription/medication,NA,NA,NA,NA,-P1M,TEST-85
+TEST,EX,0,Week 0,1,2022-03-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-64
+TEST,EX,0,Week 0,2,2023-01-19,1,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-64
+TEST,EX,0,Week 0,1,2022-12-03,1,Gabapentin or pregabalin,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-117
+TEST,EX,15,Week 15,2,2022-04-19,103,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-117
+TEST,EX,0,Week 0,3,2022-10-07,1,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-117
+TEST,EX,0,Week 0,4,2022-02-17,1,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-117
+TEST,EX,16,Week 16,1,2022-10-07,110,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-179
+TEST,EX,0,Week 0,2,2023-02-21,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-179
+TEST,EX,26,Week 26,1,2022-02-04,183,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-189
+TEST,EX,23,Week 23,1,2022-10-14,158,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-29
+TEST,EX,23,Week 23,2,2023-01-19,158,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-29
+TEST,EX,16,Week 16,1,2022-12-01,109,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,29,Week 29,2,2023-03-01,199,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,16,Week 16,3,2023-01-25,108,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,29,Week 29,4,2023-03-01,199,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,16,Week 16,5,2022-03-23,112,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-157
+TEST,EX,0,Week 0,6,2022-03-24,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,16,Week 16,7,2022-09-26,113,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,29,Week 29,8,2023-03-01,199,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-157
+TEST,EX,26,Week 26,1,2022-01-31,183,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,0,Week 0,2,2022-09-14,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-8
+TEST,EX,16,Week 16,3,2023-01-25,108,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-8
+TEST,EX,26,Week 26,4,2022-11-30,183,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,26,Week 26,5,2022-07-13,181,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,0,Week 0,6,2022-05-09,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,16,Week 16,7,2022-12-01,109,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,26,Week 26,8,2023-02-15,183,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-8
+TEST,EX,26,Week 26,9,2023-02-15,183,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,0,Week 0,10,2022-08-17,1,Opioids,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,26,Week 26,11,2023-02-15,183,Opioids,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,0,Week 0,12,2022-08-17,1,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-8
+TEST,EX,26,Week 26,13,2023-02-15,183,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-8
+TEST,EX,0,Week 0,1,2022-11-08,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-99
+TEST,EX,0,Week 0,2,2022-05-04,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-99
+TEST,EX,16,Week 16,1,2022-12-01,109,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-41
+TEST,EX,0,Week 0,2,2023-02-10,1,Other,"PT, OT, or chiropractic",Medication,NA,NA,NA,NA,NA,-P1M,TEST-41
+TEST,EX,16,Week 16,3,2022-12-01,109,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-41
+TEST,EX,17,Week 17,1,2022-02-15,118,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-155
+TEST,EX,26,Week 26,2,2022-01-31,183,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-155
+TEST,EX,0,Week 0,3,2022-10-07,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-155
+TEST,EX,26,Week 26,4,2022-07-08,183,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-155
+TEST,EX,17,Week 17,5,2022-07-21,120,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-155
+TEST,EX,24,Week 24,1,2022-08-16,168,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-93
+TEST,EX,0,Week 0,2,2022-12-12,1,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-93
+TEST,EX,24,Week 24,3,2022-08-16,168,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-93
+TEST,EX,0,Week 0,4,2022-02-17,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-93
+TEST,EX,0,Week 0,5,2022-08-31,1,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-93
+TEST,EX,16,Week 16,1,2021-12-13,110,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-130
+TEST,EX,24,Week 24,1,2022-10-26,167,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-45
+TEST,EX,15,Week 15,2,2022-12-20,103,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-45
+TEST,EX,24,Week 24,3,2022-03-29,167,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-45
+TEST,EX,22,Week 22,1,2022-08-16,155,Diet or weight loss program,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-44
+TEST,EX,0,Week 0,2,2022-08-17,1,Low back pain injection,Injection,NA,NA,NA,NA,NA,NA,-P1M,TEST-44
+TEST,EX,22,Week 22,3,2023-02-14,154,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-44
+TEST,EX,22,Week 22,4,2022-08-16,155,Opioids,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-44
+TEST,EX,0,Week 0,1,2022-08-03,1,Exercise,Diet and exercise,NA,NA,NA,3.1,Days per week,NA,-P1M,TEST-25
+TEST,EX,0,Week 0,1,2022-06-14,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-3
+TEST,EX,19,Week 19,1,2023-01-24,128,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-36
+TEST,EX,0,Week 0,1,2022-09-17,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-158
+TEST,EX,0,Week 0,2,2022-12-13,1,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-158
+TEST,EX,18,Week 18,3,2023-03-02,122,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-158
+TEST,EX,0,Week 0,1,2022-12-02,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-10
+TEST,EX,17,Week 17,2,2022-07-01,114,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-10
+TEST,EX,3,Week 3,1,2022-10-07,18,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-118
+TEST,EX,18,Week 18,2,2023-03-03,122,Exercise,Diet and exercise,NA,NA,NA,1,Days per week,NA,-P1M,TEST-118
+TEST,EX,18,Week 18,3,2023-03-02,122,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-118
+TEST,EX,3,Week 3,4,2022-10-07,18,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-118
+TEST,EX,18,Week 18,5,2023-01-18,121,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-118
+TEST,EX,18,Week 18,6,2023-01-18,121,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-118
+TEST,EX,18,Week 18,7,2023-01-18,121,SSRI_SNRI,Medication,NA,New prescription/medication,NA,NA,NA,NA,-P1M,TEST-118
+TEST,EX,15,Week 15,1,2023-01-19,106,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-105
+TEST,EX,0,Week 0,1,2022-06-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-91
+TEST,EX,19,Week 19,1,2023-01-24,128,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-171
+TEST,EX,19,Week 19,2,2023-02-08,134,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-171
+TEST,EX,19,Week 19,3,2023-02-08,134,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-171
+TEST,EX,19,Week 19,4,2023-02-08,134,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-171
+TEST,EX,18,Week 18,1,2022-08-09,126,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-149
+TEST,EX,18,Week 18,2,2022-08-09,126,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-149
+TEST,EX,15,Week 15,1,2022-08-24,105,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5.1,Days per week,NA,-P1M,TEST-109
+TEST,EX,5,Week 5,1,2023-02-13,36,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-75
+TEST,EX,5,Week 5,2,2023-02-13,36,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-75
+TEST,EX,0,Week 0,3,2022-01-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-75
+TEST,EX,5,Week 5,4,2023-01-18,36,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-75
+TEST,EX,16,Week 16,1,2022-01-20,113,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-162
+TEST,EX,16,Week 16,2,2023-01-25,108,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-162
+TEST,EX,16,Week 16,3,2022-08-29,112,NSAIDs,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-162
+TEST,EX,16,Week 16,4,2023-01-25,108,SSRI_SNRI,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-162
+TEST,EX,15,Week 15,1,2023-01-24,106,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-5
+TEST,EX,16,Week 16,1,2022-01-03,111,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-167
+TEST,EX,16,Week 16,2,2022-05-18,112,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-167
+TEST,EX,0,Week 0,3,2022-10-07,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-167
+TEST,EX,16,Week 16,4,2022-07-20,111,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-167
+TEST,EX,0,Week 0,5,2022-07-22,1,Other,"PT, OT, or chiropractic",home administered low level laser therapy and stretches,NA,NA,NA,NA,NA,-P1M,TEST-167
+TEST,EX,0,Week 0,1,2022-02-10,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-178
+TEST,EX,0,Week 0,1,2022-01-07,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-103
+TEST,EX,18,Week 18,2,2023-01-18,121,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-103
+TEST,EX,18,Week 18,3,2023-03-02,122,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-103
+TEST,EX,0,Week 0,4,2021-12-03,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-103
+TEST,EX,17,Week 17,1,2022-07-25,115,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-135
+TEST,EX,17,Week 17,2,2022-06-24,120,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-135
+TEST,EX,0,Week 0,1,2022-08-05,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,5.1,Days per week,NA,-P1M,TEST-13
+TEST,EX,16,Week 16,2,2023-02-03,109,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-13
+TEST,EX,0,Week 0,3,2022-01-07,1,Low back pain injection,Injection,NA,NA,NA,NA,NA,NA,-P1M,TEST-13
+TEST,EX,0,Week 0,4,2022-11-01,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-13
+TEST,EX,16,Week 16,5,2022-03-23,112,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-13
+TEST,EX,15,Week 15,1,2022-09-15,105,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-18
+TEST,EX,15,Week 15,2,2022-01-21,101,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-18
+TEST,EX,15,Week 15,3,2022-06-29,104,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-18
+TEST,EX,17,Week 17,1,2023-02-22,118,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-113
+TEST,EX,17,Week 17,2,2022-07-01,114,Exercise,Diet and exercise,NA,NA,NA,7,Days per week,NA,-P1M,TEST-113
+TEST,EX,17,Week 17,3,2022-09-27,118,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-113
+TEST,EX,17,Week 17,4,2023-03-02,116,SSRI_SNRI,Medication,NA,New prescription/medication,NA,NA,NA,NA,-P1M,TEST-113
+TEST,EX,17,Week 17,5,2023-02-28,118,Tricyclic antidepressants,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-113
+TEST,EX,18,Week 18,1,2023-03-03,122,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-139
+TEST,EX,18,Week 18,2,2023-03-02,122,Tricyclic antidepressants,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-139
+TEST,EX,0,Week 0,1,2023-01-17,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,3,Days per week,NA,-P1M,TEST-54
+TEST,EX,16,Week 16,2,2023-02-15,108,Exercise,Diet and exercise,NA,NA,NA,5.2,Days per week,NA,-P1M,TEST-54
+TEST,EX,16,Week 16,3,2021-12-13,110,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-54
+TEST,EX,0,Week 0,4,2022-06-06,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-54
+TEST,EX,16,Week 16,5,2022-04-28,107,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-54
+TEST,EX,16,Week 16,6,2022-04-04,110,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-54
+TEST,EX,16,Week 16,7,2023-02-23,113,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-54
+TEST,EX,0,Week 0,1,2023-02-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-89
+TEST,EX,0,Week 0,2,2022-03-18,1,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-89
+TEST,EX,1,Week 1,1,2022-07-11,4,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-80
+TEST,EX,17,Week 17,2,2023-02-28,118,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4.9,Days per week,NA,-P1M,TEST-80
+TEST,EX,17,Week 17,3,2022-07-21,120,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-80
+TEST,EX,1,Week 1,4,2021-12-20,5,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-80
+TEST,EX,17,Week 17,5,2023-02-28,118,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-80
+TEST,EX,17,Week 17,6,2023-02-28,118,Tricyclic antidepressants,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-80
+TEST,EX,1,Week 1,1,2021-12-20,5,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-185
+TEST,EX,1,Week 1,2,2022-02-21,5,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-185
+TEST,EX,17,Week 17,3,2023-02-28,119,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-185
+TEST,EX,17,Week 17,4,2022-06-24,120,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-185
+TEST,EX,17,Week 17,5,2022-07-21,120,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-185
+TEST,EX,0,Week 0,1,2022-01-27,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,2,2023-03-06,1,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,3,2022-11-08,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,4,2022-02-17,1,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,5,2022-02-14,1,Low back pain injection,Injection,NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,6,2022-05-09,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,7,2022-11-08,1,Non-spinal fusion,Surgery,NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,8,2022-11-08,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-61
+TEST,EX,0,Week 0,1,2022-01-27,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-131
+TEST,EX,2,Week 2,1,2022-12-09,9,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-14
+TEST,EX,0,Week 0,1,2022-03-07,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4.9,Days per week,NA,-P1M,TEST-123
+TEST,EX,0,Week 0,1,2022-12-15,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-163
+TEST,EX,7,Week 7,1,2023-01-20,46,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-106
+TEST,EX,6,Week 6,1,2023-01-19,43,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-151
+TEST,EX,6,Week 6,2,2023-01-19,43,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-151
+TEST,EX,6,Week 6,1,2023-01-18,38,Exercise,Diet and exercise,NA,NA,NA,3.1,Days per week,NA,-P1M,TEST-159
+TEST,EX,0,Week 0,2,2022-03-24,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-159
+TEST,EX,6,Week 6,3,2023-02-28,41,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-159
+TEST,EX,6,Week 6,4,2023-01-18,38,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-159
+TEST,EX,0,Week 0,1,2022-07-19,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-97
+TEST,EX,0,Week 0,2,2023-01-23,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,6,Days per week,NA,-P1M,TEST-97
+TEST,EX,6,Week 6,3,2023-01-19,38,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,2,Days per week,NA,-P1M,TEST-97
+TEST,EX,0,Week 0,1,2022-11-03,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-72
+TEST,EX,0,Week 0,2,2022-04-04,1,Exercise,Diet and exercise,NA,NA,NA,3,Days per week,NA,-P1M,TEST-72
+TEST,EX,5,Week 5,3,2023-02-14,36,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-72
+TEST,EX,5,Week 5,4,2023-02-14,36,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-72
+TEST,EX,5,Week 5,5,2023-01-18,36,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-72
+TEST,EX,0,Week 0,1,2022-02-22,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,2,2023-01-21,38,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,3,2023-02-28,41,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,0,Week 0,4,2022-06-06,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,NA,NA,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,5,2023-02-28,41,Exercise,Diet and exercise,NA,NA,NA,6,Days per week,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,6,2023-01-24,42,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,0,Week 0,7,2022-12-14,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,8,2023-01-24,42,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,0,Week 0,9,2022-12-14,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,10,2023-01-24,42,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,6,Week 6,11,2023-01-24,42,Tricyclic antidepressants,Medication,NA,New prescription/medication,NA,NA,NA,NA,-P1M,TEST-180
+TEST,EX,0,Week 0,1,2023-03-01,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-86
+TEST,EX,6,Week 6,2,2023-02-16,38,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-86
+TEST,EX,5,Week 5,1,2022-11-11,36,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-92
+TEST,EX,5,Week 5,2,2022-11-11,36,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-92
+TEST,EX,0,Week 0,1,2022-12-14,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-49
+TEST,EX,5,Week 5,2,2023-02-21,36,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-49
+TEST,EX,5,Week 5,3,2023-02-14,36,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-49
+TEST,EX,5,Week 5,4,2023-01-18,36,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-49
+TEST,EX,5,Week 5,5,2023-02-14,36,Therapy or counseling,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-49
+TEST,EX,0,Week 0,1,2022-05-09,1,Gabapentin or pregabalin,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-114
+TEST,EX,5,Week 5,2,2023-02-13,36,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-114
+TEST,EX,0,Week 0,3,2023-03-06,1,NSAIDs,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-114
+TEST,EX,1,Week 1,1,2022-02-21,5,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,Telehealth,-P1M,TEST-74
+TEST,EX,6,Week 6,2,2023-01-24,42,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-74
+TEST,EX,1,Week 1,3,2022-04-03,3,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-74
+TEST,EX,6,Week 6,4,2023-02-28,41,Gabapentin or pregabalin,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-74
+TEST,EX,6,Week 6,5,2023-02-16,38,NSAIDs,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-74
+TEST,EX,0,Week 0,1,2023-02-06,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,4,Days per week,NA,-P1M,TEST-35
+TEST,EX,0,Week 0,2,2023-01-23,1,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-35
+TEST,EX,0,Week 0,1,2022-02-10,1,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-66
+TEST,EX,0,Week 0,2,2023-01-23,1,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-66
+TEST,EX,6,Week 6,3,2023-01-19,38,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,3,Days per week,Telehealth,-P1M,TEST-66
+TEST,EX,6,Week 6,4,2023-02-28,41,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-66
+TEST,EX,6,Week 6,5,2023-01-24,42,NSAIDs,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-66
+TEST,EX,0,Week 0,6,2022-02-25,1,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-66
+TEST,EX,0,Week 0,7,2021-12-02,1,Other,"PT, OT, or chiropractic",Accupuncture one visit,NA,NA,NA,NA,NA,-P1M,TEST-66
+TEST,EX,6,Week 6,1,2023-01-19,43,Exercise,Diet and exercise,NA,NA,NA,3.2,Days per week,NA,-P1M,TEST-173
+TEST,EX,0,Week 0,1,2023-01-23,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,6,Days per week,NA,-P1M,TEST-152
+TEST,EX,0,Week 0,2,2023-02-14,1,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-152
+TEST,EX,0,Week 0,3,2023-03-06,1,Tricyclic antidepressants,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-152
+TEST,EX,0,Week 0,1,2022-02-22,1,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-62
+TEST,EX,5,Week 5,2,2023-02-14,36,Exercise,Diet and exercise,NA,NA,Recommended or prescribed,7,Days per week,NA,-P1M,TEST-62
+TEST,EX,5,Week 5,3,2023-01-18,36,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-62
+TEST,EX,0,Week 0,1,2022-01-21,1,Acupuncture,Alternative medicine,NA,NA,NA,NA,NA,NA,-P1M,TEST-12
+TEST,EX,0,Week 0,1,2022-12-02,1,NSAIDs,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-186
+TEST,EX,0,Week 0,2,2022-01-12,1,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-186
+TEST,EX,0,Week 0,1,2022-11-19,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-2
+TEST,EX,0,Week 0,2,2022-02-22,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-2
+TEST,EX,0,Week 0,3,2022-11-08,1,Exercise,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-2
+TEST,EX,0,Week 0,4,2022-11-08,1,Other,Medication,NA,Unknown,NA,NA,NA,NA,-P1M,TEST-2
+TEST,EX,0,Week 0,5,2022-11-08,1,Other passive PT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-2
+TEST,EX,0,Week 0,1,2022-11-03,1,Gabapentin or pregabalin,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-188
+TEST,EX,0,Week 0,2,2022-02-22,1,NSAIDs,Medication,NA,New prescription/medication,NA,NA,NA,NA,-P1M,TEST-188
+TEST,EX,0,Week 0,3,2022-10-31,1,SSRI_SNRI,Medication,NA,Dose increased,NA,NA,NA,NA,-P1M,TEST-188
+TEST,EX,0,Week 0,1,2022-07-15,1,Active PT or OT,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-182
+TEST,EX,0,Week 0,2,2022-01-21,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-182
+TEST,EX,0,Week 0,3,2022-05-21,1,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-182
+TEST,EX,0,Week 0,1,2023-01-17,1,Adjustment or manipulation,"PT, OT, or chiropractic",NA,NA,NA,NA,NA,NA,-P1M,TEST-191
+TEST,EX,0,Week 0,2,2023-03-06,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-191
+TEST,EX,0,Week 0,3,2023-02-21,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,Telehealth,-P1M,TEST-191
+TEST,EX,0,Week 0,1,2022-09-15,1,Exercise,Diet and exercise,NA,NA,NA,4.1,Days per week,NA,-P1M,TEST-82
+TEST,EX,0,Week 0,1,2023-02-21,1,Exercise,Diet and exercise,NA,NA,NA,2,Days per week,NA,-P1M,TEST-119
+TEST,EX,0,Week 0,1,2022-12-02,1,NSAIDs,Medication,NA,Dose unchanged,NA,NA,NA,NA,-P1M,TEST-140
+TEST,EX,0,Week 0,2,2022-08-19,1,SSRI_SNRI,Medication,NA,Dose decreased,NA,NA,NA,NA,-P1M,TEST-140
+TEST,EX,0,Week 0,1,2022-11-08,1,Diet or weight loss program,Diet and exercise,NA,NA,NA,NA,NA,NA,-P1M,TEST-81
+TEST,EX,0,Week 0,2,2022-05-23,1,Exercise,Diet and exercise,NA,NA,NA,4,Days per week,NA,-P1M,TEST-81
+TEST,EX,0,Week 0,3,2022-11-08,1,Mindfulness or meditation or relaxation,Mental health,NA,NA,NA,NA,NA,NA,-P1M,TEST-81
