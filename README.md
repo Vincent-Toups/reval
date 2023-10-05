@@ -4,7 +4,9 @@ This project is a data validation package for the BACPAC clinical
 trial. It validates the minimum data set required for this trial and
 checks for completeness and correctness.
 
+## Pre-built Library
 
+You can download the latest release [here](https://github.com/Vincent-Toups/reval/raw/main/reval_0.1.0.tar.gz).
 
 
 ## Getting Started
