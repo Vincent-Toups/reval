@@ -1193,7 +1193,10 @@ find_name_pairs <- function(names) {
 #'   # Suppose we have a dataset in "data.csv" and specifications in the `specs` data frame
 #'   validate_dataset("data.csv", specs)
 #' }
-validate_dataset <- function(filename, combined_specs=min_data_set_spec, write_report_to=FALSE){
+validate_dataset <- function(filename, combined_specs=function(){reval::min_data_set_spec}, write_report_to=FALSE){
+    if(is.function(combined_specs)){
+        combined_specs <- combined_specs();
+    }
     if(is.null(filename)){
         filename <- file.choose();
     }
@@ -1222,8 +1225,10 @@ validate_dataset <- function(filename, combined_specs=min_data_set_spec, write_r
         data <- data %>% filter_rows_all_na(c("FTSTRESC", "FTSTRESN", "FTSTAT"));
     } else {
         result <- check_missing_values_in_pairs(data);
-        messages <- result$summary;
-        data <- data %>% dplyr::filter(result$problematic_rows);
+        if(!is.null(result)){
+            messages <- result$summary;
+            data <- data %>% dplyr::filter(result$problematic_rows);
+        }
     }
     for(v in variables){
         if(!v %in% colnames(data)) {
@@ -1576,7 +1581,10 @@ check_missing_values_in_pairs <- function(data) {
   results <- list()
   problematic_rows <- c()
   
-  # Loop over each pair and check for missing values
+                                        # Loop over each pair and check for missing values
+    if(length(name_pairs)==0){
+        return(NULL);
+    }
   for(i in 1:length(name_pairs)) {
     
     pair <- name_pairs[[i]]
