@@ -11,10 +11,12 @@ You can download the latest release [here](https://github.com/Vincent-Toups/reva
 
 ## Getting Started
 
-To use this package, you will need to have Docker installed on your
-system. If you don't have Docker installed, please follow the
-instructions on the [official Docker
-website](https://docs.docker.com/get-docker/).
+Development of this package takes places in a Docker container. If you
+don't have Docker installed, please follow the instructions on the
+[official Docker website](https://docs.docker.com/get-docker/). If you
+really don't want to use Docker, then you can consult the Dockerfile
+in the repo for what libraries are required to build and work on the
+package.
 
 To start the environment and build the validation package, follow
 these steps:
